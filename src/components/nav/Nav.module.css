@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  left: 20px;
+  z-index: 1000;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.container .nav ul {
+  background-color: #242038;
+  padding: 20px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+.container .nav ul li {
+  list-style: none;
+  background-color: #f7ece1;
+  padding: 10px;
+  border-radius: 50%;
+  color: #9067c6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav ul li svg {
+  display: flex;
+}
+
+.container .nav ul li:hover {
+  color: #7923eb;
+  transform: scale(1.2);
+}
