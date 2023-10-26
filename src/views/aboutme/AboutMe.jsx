@@ -1,17 +1,24 @@
 import React from "react";
 import { motion } from "framer-motion";
 import s from "./AboutMe.module.css";
+import { ProfilePic } from "../../utils/Icons";
 const AboutMe = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 2 }}
-      className={s.container}
-      id="aboutMe"
-    >
-      <div></div>
-    </motion.div>
+    <div className={s.container} id="aboutMe">
+      <motion.div
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5 }}
+        className={s.img}
+      >
+        <ProfilePic width="400" />
+      </motion.div>
+      <div>
+        <h1>JULIAN LUQUE</h1>
+      </div>
+      <div className={s.blur}></div>
+      <div className={s.blur2}></div>
+    </div>
   );
 };
 

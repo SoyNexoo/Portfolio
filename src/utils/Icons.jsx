@@ -1,4 +1,5 @@
 import programming from "./programming.svg";
+import profilePic from "./miFoto.jpg";
 
 export const House = ({ width }) => {
   return (
@@ -58,4 +59,8 @@ export const SocialMedia = ({ width }) => {
 
 export const Programming = ({ width }) => {
   return <img src={programming} width={width}></img>;
+};
+
+export const ProfilePic = ({ width }) => {
+  return <img src={profilePic} width={width}></img>;
 };

@@ -35,12 +35,3 @@
     transform: translateY(0);
   }
 }
-
-.img img {
-  border-radius: 999px;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  object-position: center top;
-  border: 20px solid rgb(224, 224, 224);
-}

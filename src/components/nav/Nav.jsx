@@ -24,11 +24,11 @@ const Nav = () => {
           <li onClick={() => scrollToElement("#home")}>
             <House width={30}></House>
           </li>
+          <li onClick={() => scrollToElement("#projects")}>
+            <Folder width={30}></Folder>
+          </li>
           <li onClick={() => scrollToElement("#aboutMe")}>
             <Person width={30}></Person>
-          </li>
-          <li>
-            <Folder width={30}></Folder>
           </li>
           <li>
             <SocialMedia width={30}></SocialMedia>

@@ -16,7 +16,7 @@
 }
 .container .nav ul li {
   list-style: none;
-  background-color: #f7ece1;
+  background-color: rgb(224, 224, 224);
   padding: 10px;
   border-radius: 50%;
   color: #9067c6;
@@ -28,6 +28,7 @@
 }
 
 .container .nav ul li:hover {
-  color: #7923eb;
+  background-color: rgb(240, 238, 238);
+  color: #7a38d0;
   transform: scale(1.2);
 }
