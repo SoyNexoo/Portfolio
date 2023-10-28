@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import s from "./AboutMe.module.css";
 import { ProfilePic } from "../../utils/Icons";
+import Reveal from "../../components/reveal/Reveal";
 const AboutMe = () => {
   return (
     <div className={s.container} id="aboutMe">
@@ -14,7 +15,9 @@ const AboutMe = () => {
         <ProfilePic width="400" />
       </motion.div>
       <div>
-        <h1>JULIAN LUQUE</h1>
+        <Reveal>
+          <h1>JULIAN LUQUE</h1>
+        </Reveal>
       </div>
       <div className={s.blur}></div>
       <div className={s.blur2}></div>

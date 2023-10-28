@@ -1,3 +1,4 @@
+import Reveal from "../../components/reveal/Reveal";
 import { Programming } from "../../utils/Icons";
 import s from "./Home.module.css";
 import { motion } from "framer-motion";
@@ -11,17 +12,26 @@ const Home = () => {
       id="home"
     >
       <div className={s.text}>
-        <h5>Programador web - Junior</h5>
-        <h1>
-          HOLA, SOY JULIAN LUQUE<span>!</span>
-        </h1>
-        <p>
-          Desarrollador web junior apasionado por la programación y el diseño
-          <span> creativo</span>! Me destaco por mi proactividad y mi capacidad
-          para organizarme, lo que me permite abordar proyectos desafiantes con
-          <span> entusiasmo</span> y determinación<span>.</span>
-        </p>
-        <button>Contactame!</button>
+        <Reveal>
+          <h5>Programador web - Junior</h5>
+        </Reveal>
+        <Reveal>
+          <h1>
+            HOLA, SOY JULIAN LUQUE<span>!</span>
+          </h1>
+        </Reveal>
+        <Reveal>
+          <p>
+            Desarrollador web junior apasionado por la programación y el diseño
+            <span> creativo</span>! Me destaco por mi proactividad y mi
+            capacidad para organizarme, lo que me permite abordar proyectos
+            desafiantes con
+            <span> entusiasmo</span> y determinación<span>.</span>
+          </p>
+        </Reveal>
+        <Reveal>
+          <button>Contactame!</button>
+        </Reveal>
       </div>
       <Programming width={500}></Programming>
       <div className={s.blur}></div>

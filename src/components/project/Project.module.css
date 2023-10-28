@@ -1,0 +1,39 @@
+.container {
+  width: 340px;
+  padding: 20px;
+  backdrop-filter: blur(13px) saturate(200%);
+  -webkit-backdrop-filter: blur(13px) saturate(200%);
+  background-color: rgba(51, 30, 72, 0.303);
+
+  border-radius: 12px;
+  border: 1px solid rgba(126, 16, 210, 0.245);
+}
+
+.container img {
+  width: 100%;
+  object-fit: cover;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list li {
+  list-style: none;
+  color: #8a49de;
+}
+.list li span {
+  list-style: none;
+  color: rgb(224, 224, 224);
+}
+.description {
+  color: rgb(224, 224, 224);
+  line-height: 1.2em; /* Ajusta este valor según tus necesidades */
+}
+.description span {
+  color: #8a49de;
+  cursor: pointer;
+}
+
+.container h1 {
+  color: white;
+}
