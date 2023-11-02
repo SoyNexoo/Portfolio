@@ -30,7 +30,7 @@ const Home = () => {
           </p>
         </Reveal>
         <Reveal>
-          <button>Contactame!</button>
+          <button>Mi curriculum!</button>
         </Reveal>
       </div>
       <Programming width={500}></Programming>

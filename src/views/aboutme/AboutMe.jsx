@@ -23,6 +23,7 @@ const AboutMe = () => {
         initial={{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className={s.img}
       >
         <ProfilePic width="400" />
@@ -30,10 +31,10 @@ const AboutMe = () => {
       <div className={s.info}>
         <div className={s.name}>
           <Reveal>
-            <h1>JULIAN LUQUE</h1>
             <h5>
               Joven <span>desarrollador web</span>
             </h5>
+            <h1>JULIAN LUQUE</h1>
           </Reveal>
         </div>
         <div className={s.description}>
@@ -53,7 +54,6 @@ const AboutMe = () => {
               <h3>Frontend</h3>
               <div className={s.habs}>
                 <React width={40}></React>
-                <Figma width={40}></Figma>
                 <MdiBootstrap width={40}></MdiBootstrap>
                 <AkarIconsReduxFill width={40}></AkarIconsReduxFill>
                 <TablerBrandFramerMotion width={40}></TablerBrandFramerMotion>
@@ -75,6 +75,7 @@ const AboutMe = () => {
           <div className={s.section}>
             <h3>Herramientas</h3>
             <div className={s.habs}>
+              <Figma width={40}></Figma>
               <MdiGithub width={40}></MdiGithub>
               <MdiSlack width={40}></MdiSlack>
               <WhhPgsql width={40}></WhhPgsql>

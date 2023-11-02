@@ -47,8 +47,12 @@
 
 .stack svg {
   color: #7923eb;
+  transition: transform 0.2s ease;
 }
-
+.stack svg:hover {
+  color: rgb(220, 219, 219);
+  transform: scale(1.2);
+}
 .name h1 {
   font-size: 45px;
   color: rgb(224, 224, 224);
