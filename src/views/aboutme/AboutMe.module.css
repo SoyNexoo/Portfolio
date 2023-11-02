@@ -60,6 +60,7 @@
 .name h5 {
   font-size: 20px;
   color: rgb(224, 224, 224);
+  font-style: italic;
 }
 
 .name h5 span {
@@ -70,6 +71,10 @@
   margin: 0 0 10px;
   width: 80%;
   color: rgb(220, 219, 219);
+}
+.description p span {
+  color: #ebe123;
+  font-style: oblique;
 }
 .stack h3 {
   font-size: 30px;

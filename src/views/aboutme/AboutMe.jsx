@@ -38,16 +38,20 @@ const AboutMe = () => {
           </Reveal>
         </div>
         <div className={s.description}>
-          <p>
-            Graduado de HENRY en el stack PERN y con experiencia en diseño para
-            equipos E-Sports. Estoy en busca de mi primer trabajo como
-            desarrollador web. Apasionado por <span>React</span> y{" "}
-            <span>JavaScript</span>, me esfuerzo por crear experiencias web
-            sorprendentes.
-          </p>
+          <Reveal>
+            <p>
+              Graduado de <span>HENRY</span> en el stack PERN y con experiencia
+              en diseño para equipos E-Sports. Estoy en busca de mi primer
+              trabajo como desarrollador web. Apasionado por React y{" "}
+              <span>JavaScript</span>, me esfuerzo por crear experiencias web
+              sorprendentes.
+            </p>
+          </Reveal>
         </div>
         <div className={s.stack}>
-          <h3>Mi stack:</h3>
+          <Reveal>
+            <h3>Mi stack:</h3>
+          </Reveal>
           <div className={s.rule}></div>
           <div className={s.secContainer}>
             <div className={s.section}>
