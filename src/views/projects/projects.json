@@ -2,34 +2,19 @@
   {
     "titulo": "The Next Page",
     "descripcion": "Nuestra idea es brindarle facilidad a los clientes que ingresan buscando encontrar la aventura que conlleva un libro nuevo o incluso poder volver a encontrar sus títulos favoritos.\nQueremos que comprar libros sea más que una simple transacción. Queremos que sea una experiencia amigable, intuitiva y personalizada que nos haga sentir como si estuviéramos recorriendo los pasillos de nuestra librería favorita, incluso cuando estamos sentados en la comodidad de nuestro hogar.",
-    "tecnologias": [
-      "React",
-      "NodeJS",
-      "Express",
-      "PostgreSQL",
-      "Bootstrap"
-    ],
-    "imagenLink": "https://media.licdn.com/dms/image/D4D22AQGIqke8h9EtrQ/feedshare-shrink_800/0/1697916592044?e=1701302400&v=beta&t=GTokMHCtBda0b1KBB_PjjxofeArPptDxf0CcDZIW-tw"
+    "tecnologias": ["React", "NodeJS", "Express", "PostgreSQL", "Bootstrap"],
+    "imagenLink": "https://res.cloudinary.com/dkdounmsa/image/upload/v1698968886/zwoc9e68tgtqk9omrnzj.jpg"
   },
   {
     "titulo": "Countries APP - PI",
     "descripcion": "Creé una aplicación global centrada en proporcionar detalles actualizados sobre países. Logros destacados: Diseñé una interfaz atractiva en React para una experiencia inmersiva. Desarrollé un backend sólido en Node.js, asegurando funcionalidad sin problemas. Integré una base de datos dinámica para datos precisos. Añadí funciones como búsqueda avanzada y filtrado por regiones, mejorando la experiencia del usuario.",
-    "tecnologias": [
-      "React",
-      "NodeJS",
-      "Express",
-      "PostgreSQL"
-    ],
-    "imagenLink": "https://media.licdn.com/dms/image/D4D2DAQEAOCe-1BAVDg/profile-treasury-image-shrink_800_800/0/1692144214612?e=1698868800&v=beta&t=29onLdT7R7OGJQleTCzSIkEc-sbBX0Am0DoSJFrXRHc"
+    "tecnologias": ["React", "NodeJS", "Express", "PostgreSQL"],
+    "imagenLink": "https://res.cloudinary.com/dkdounmsa/image/upload/v1698968816/ehwda2mctpyek1r7lgim.jpg"
   },
   {
     "titulo": "Portfolio",
     "descripcion": "Encantado de presentarte mi portfolio, donde convergen mi pasión por el desarrollo frontend y mi amor por el código limpio y eficiente. A lo largo de mi carrera, he sido responsable del desarrollo de funciones clave y del diseño de la interfaz de usuario. Mi enfoque se centra en la creación de experiencias de usuario optimizadas mediante tecnologías como React, NodeJS y Express. La colaboración con equipos multidisciplinarios ha mejorado mis habilidades de comunicación y me ha permitido resolver desafíos técnicos en tiempo real. Esta experiencia ha enriquecido mi bagaje profesional y ha fortalecido mi capacidad para enfrentar situaciones complejas en el mundo del desarrollo de software. Mi portfolio no es solo un conjunto de proyectos, es un testimonio de mi dedicación a la excelencia en el desarrollo web.",
-    "tecnologias": [
-      "React",
-      "NodeJS",
-      "Express"
-    ],
+    "tecnologias": ["React", "NodeJS", "Express"],
     "imagenLink": "https://res.cloudinary.com/dkdounmsa/image/upload/bfqudqnx0b1klnqzxqym.png"
   },
   {
