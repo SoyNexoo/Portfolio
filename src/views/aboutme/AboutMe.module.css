@@ -44,3 +44,50 @@
   object-position: center top;
   border: 20px solid rgb(224, 224, 224);
 }
+
+.stack svg {
+  color: #7923eb;
+}
+
+.name h1 {
+  font-size: 45px;
+  color: rgb(224, 224, 224);
+}
+.name h5 {
+  font-size: 20px;
+  color: rgb(224, 224, 224);
+}
+
+.name h5 span {
+  color: #7923eb;
+}
+
+.description {
+  margin: 0 0 10px;
+  width: 80%;
+  color: rgb(220, 219, 219);
+}
+.stack h3 {
+  font-size: 30px;
+  color: rgb(224, 224, 224);
+}
+
+.stack .rule {
+  width: 40px;
+  background-color: #7923eb;
+  height: 5px;
+}
+
+.section h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.section .habs {
+  display: flex;
+  gap: 15px;
+}
+.secContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
