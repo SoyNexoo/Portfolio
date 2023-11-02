@@ -30,7 +30,18 @@ const Home = () => {
           </p>
         </Reveal>
         <Reveal>
-          <button>Mi curriculum!</button>
+          <button>
+            {" "}
+            <a
+              href={
+                "https://drive.google.com/file/d/144CNVugGpEFh06xsPi_3Sx-26phM63Q1/view?usp=sharing"
+              }
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              Mi curriculum!
+            </a>
+          </button>
         </Reveal>
       </div>
       <Programming width={500}></Programming>

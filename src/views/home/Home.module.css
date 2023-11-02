@@ -67,6 +67,10 @@
   color: #fff;
   transition: transform 0.3s ease;
 }
+.container button a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .container img {
   animation: bounceImg 7s infinite;
