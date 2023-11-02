@@ -16,7 +16,34 @@ import {
   WhhPgsql,
 } from "../../utils/Icons";
 import Reveal from "../../components/reveal/Reveal";
+import Appear from "../../components/appear/Appear";
 const AboutMe = () => {
+  const frontend = [
+    <React key={"react"} width={40}></React>,
+    <MdiBootstrap key={"bootstrap"} width={40}></MdiBootstrap>,
+    <AkarIconsReduxFill key={"redux"} width={40}></AkarIconsReduxFill>,
+    <TablerBrandFramerMotion
+      key={"framer"}
+      width={40}
+    ></TablerBrandFramerMotion>,
+    <AkarIconsCssFill key={"css"} width={40}></AkarIconsCssFill>,
+  ];
+
+  const backend = [
+    <TeenyiconsJavascriptOutline
+      key={"js"}
+      width={40}
+    ></TeenyiconsJavascriptOutline>,
+    <Express key={"express"} width={40}></Express>,
+    <AkarIconsNodeFill key={"node"} width={40}></AkarIconsNodeFill>,
+  ];
+
+  const tools = [
+    <Figma key={"figma"} width={40}></Figma>,
+    <MdiGithub key={"github"} width={40}></MdiGithub>,
+    <MdiSlack key={"slack"} width={40}></MdiSlack>,
+    <WhhPgsql key={"postgres"} width={40}></WhhPgsql>,
+  ];
   return (
     <div className={s.container} id="aboutMe">
       <motion.div
@@ -57,32 +84,20 @@ const AboutMe = () => {
             <div className={s.section}>
               <h3>Frontend</h3>
               <div className={s.habs}>
-                <React width={40}></React>
-                <MdiBootstrap width={40}></MdiBootstrap>
-                <AkarIconsReduxFill width={40}></AkarIconsReduxFill>
-                <TablerBrandFramerMotion width={40}></TablerBrandFramerMotion>
-
-                <AkarIconsCssFill width={40}></AkarIconsCssFill>
+                <Appear props={frontend}></Appear>
               </div>
             </div>
             <div className={s.section}>
               <h3>Backend</h3>
               <div className={s.habs}>
-                <TeenyiconsJavascriptOutline
-                  width={40}
-                ></TeenyiconsJavascriptOutline>
-                <Express width={40}></Express>
-                <AkarIconsNodeFill width={40}></AkarIconsNodeFill>
+                <Appear props={backend}></Appear>
               </div>
             </div>
           </div>
           <div className={s.section}>
             <h3>Herramientas</h3>
             <div className={s.habs}>
-              <Figma width={40}></Figma>
-              <MdiGithub width={40}></MdiGithub>
-              <MdiSlack width={40}></MdiSlack>
-              <WhhPgsql width={40}></WhhPgsql>
+              <Appear props={tools}></Appear>
             </div>
           </div>
         </div>
