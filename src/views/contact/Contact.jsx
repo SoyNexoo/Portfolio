@@ -1,4 +1,5 @@
 import Reveal from "../../components/reveal/Reveal";
+import ViewCount from "../../components/viewCount/ViewCount";
 import { Love, MdiGithub, MdiGmail, MdiLinkedin } from "../../utils/Icons";
 import style from "./Contact.module.css";
 const Contact = () => {
@@ -48,13 +49,16 @@ const Contact = () => {
               </a>
             </Reveal>
           </div>
-          <Reveal>
-            <p>No funciono el link del correo? Perfecto, este es mi correo</p>
-          </Reveal>
-          <Reveal>
-            <p>Julianlu29.03@gmail.com</p>
-          </Reveal>
+          <div style={{ marginBottom: 20 }}>
+            <Reveal>
+              <p>No funciono el link del correo? Perfecto, este es mi correo</p>
+            </Reveal>
+            <Reveal>
+              <p>Julianlu29.03@gmail.com</p>
+            </Reveal>
+          </div>
         </div>
+        <ViewCount></ViewCount>
       </div>
       <div>
         <Love width={550}></Love>
