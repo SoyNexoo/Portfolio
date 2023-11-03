@@ -58,7 +58,6 @@ const Contact = () => {
             </Reveal>
           </div>
         </div>
-        <ViewCount></ViewCount>
       </div>
       <div>
         <Love width={550}></Love>
