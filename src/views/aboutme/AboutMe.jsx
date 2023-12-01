@@ -4,11 +4,14 @@ import {
   AkarIconsCssFill,
   AkarIconsNodeFill,
   AkarIconsReduxFill,
+  CibTypescript,
   Express,
+  FaBrandsSass,
   Figma,
   MdiBootstrap,
   MdiGithub,
   MdiSlack,
+  MdiTailwind,
   ProfilePic,
   React,
   TablerBrandFramerMotion,
@@ -27,6 +30,9 @@ const AboutMe = () => {
       width={40}
     ></TablerBrandFramerMotion>,
     <AkarIconsCssFill key={"css"} width={40}></AkarIconsCssFill>,
+    <FaBrandsSass key={"Sass"} width={40}></FaBrandsSass>,
+    <MdiTailwind width={40} key={"Tailwind"}></MdiTailwind>,
+    <CibTypescript width={40} key={"Typescript"}></CibTypescript>,
   ];
 
   const backend = [

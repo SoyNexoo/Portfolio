@@ -14,8 +14,20 @@
   {
     "titulo": "Portfolio",
     "descripcion": "Encantado de presentarte mi portfolio, donde convergen mi pasión por el desarrollo frontend y mi amor por el código limpio y eficiente. A lo largo de mi carrera, he sido responsable del desarrollo de funciones clave y del diseño de la interfaz de usuario. Mi enfoque se centra en la creación de experiencias de usuario optimizadas mediante tecnologías como React, NodeJS y Express. La colaboración con equipos multidisciplinarios ha mejorado mis habilidades de comunicación y me ha permitido resolver desafíos técnicos en tiempo real. Esta experiencia ha enriquecido mi bagaje profesional y ha fortalecido mi capacidad para enfrentar situaciones complejas en el mundo del desarrollo de software. Mi portfolio no es solo un conjunto de proyectos, es un testimonio de mi dedicación a la excelencia en el desarrollo web.",
-    "tecnologias": ["React", "NodeJS", "Express"],
+    "tecnologias": ["React", "Framer-Motion", "Sass"],
     "imagenLink": "https://res.cloudinary.com/dkdounmsa/image/upload/bfqudqnx0b1klnqzxqym.png"
+  },
+  {
+    "titulo": "Awaq ONGD",
+    "descripcion": "Promovemos la sostenibilidad de la biodiversidad a través de nuestra Red de Estaciones Biológicas para la investigación y monitorización de la biodiversidad, tejiendo alianzas con las comunidades, generando beneficios sociales, culturales y económicos en los territorios, siguiendo los mandatos de Naciones Unidas",
+    "tecnologias": [
+      "React",
+      "Tailwind",
+      "Framer-Motion",
+      "Typescript",
+      "Figma"
+    ],
+    "imagenLink": "https://res.cloudinary.com/dkdounmsa/image/upload/yaiwuhk7azucyuoswcks.png"
   },
   {
     "titulo": "GreatTravel",

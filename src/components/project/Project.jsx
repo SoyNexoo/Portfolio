@@ -26,7 +26,11 @@ const Project = ({ title, description, image, tech }) => {
 
   return (
     <div className={`${s.container}`}>
-      <img src={image} alt={title} />
+      <img
+        style={{ background: title == "Awaq ONGD" && "white" }}
+        src={image}
+        alt={title}
+      />
       <Reveal>
         <ul className={s.list}>{list()}</ul>
       </Reveal>
