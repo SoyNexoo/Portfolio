@@ -1,5 +1,5 @@
 import programming from "./programming.svg";
-import profilePic from "./miFoto.jpg";
+import profilePic from "./WIN_20231218_11_53_11_Pro.png";
 
 export const House = ({ width }) => {
   return (
