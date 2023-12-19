@@ -21,11 +21,9 @@ const Projects = () => {
   return (
     <div className={s.container} id="projects">
       <header className={s.title}>
-        <div className={s.line}></div>
-        <Reveal noOverflow={true}>
+        <Reveal>
           <h1>Proyectos</h1>
         </Reveal>
-        <div className={s.line2}></div>
       </header>
       <div className={s.projects}>
         {arrPro.map((ele) => {

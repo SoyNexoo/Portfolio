@@ -8,6 +8,7 @@ import {
   Express,
   FaBrandsSass,
   Figma,
+  MaterialSymbolsFlutter,
   MdiBootstrap,
   MdiGithub,
   MdiSlack,
@@ -25,6 +26,10 @@ const AboutMe = () => {
     <React key={"react"} width={40}></React>,
     <MdiBootstrap key={"bootstrap"} width={40}></MdiBootstrap>,
     <AkarIconsReduxFill key={"redux"} width={40}></AkarIconsReduxFill>,
+    <MaterialSymbolsFlutter
+      key={"Flutter"}
+      width={40}
+    ></MaterialSymbolsFlutter>,
     <TablerBrandFramerMotion
       key={"framer"}
       width={40}

@@ -36,7 +36,7 @@
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .line {
@@ -64,12 +64,13 @@
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
-  width: 100%;
-  gap: 20px;
-  overflow: hidden;
+  display: flex;
+  width: 90%;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .cursorBlur {
