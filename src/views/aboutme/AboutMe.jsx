@@ -8,7 +8,6 @@ import {
   Express,
   FaBrandsSass,
   Figma,
-  MaterialSymbolsFlutter,
   MdiBootstrap,
   MdiGithub,
   MdiSlack,
@@ -26,14 +25,9 @@ const AboutMe = () => {
     <React key={"react"} width={40}></React>,
     <MdiBootstrap key={"bootstrap"} width={40}></MdiBootstrap>,
     <AkarIconsReduxFill key={"redux"} width={40}></AkarIconsReduxFill>,
-    <MaterialSymbolsFlutter
-      key={"Flutter"}
-      width={40}
-    ></MaterialSymbolsFlutter>,
     <TablerBrandFramerMotion
       key={"framer"}
-      width={40}
-    ></TablerBrandFramerMotion>,
+      width={40}></TablerBrandFramerMotion>,
     <AkarIconsCssFill key={"css"} width={40}></AkarIconsCssFill>,
     <FaBrandsSass key={"Sass"} width={40}></FaBrandsSass>,
     <MdiTailwind width={40} key={"Tailwind"}></MdiTailwind>,
@@ -43,8 +37,7 @@ const AboutMe = () => {
   const backend = [
     <TeenyiconsJavascriptOutline
       key={"js"}
-      width={40}
-    ></TeenyiconsJavascriptOutline>,
+      width={40}></TeenyiconsJavascriptOutline>,
     <Express key={"express"} width={40}></Express>,
     <AkarIconsNodeFill key={"node"} width={40}></AkarIconsNodeFill>,
   ];
@@ -62,8 +55,7 @@ const AboutMe = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        className={s.img}
-      >
+        className={s.img}>
         <ProfilePic width="400" />
       </motion.div>
       <div className={s.info}>
@@ -78,11 +70,10 @@ const AboutMe = () => {
         <div className={s.description}>
           <Reveal>
             <p>
-              Graduado de <span>HENRY</span> en el stack PERN y con experiencia
-              en diseño para equipos E-Sports. Estoy en busca de mi primer
-              trabajo como desarrollador web. Apasionado por React y{" "}
-              <span>JavaScript</span>, me esfuerzo por crear experiencias web
-              sorprendentes.
+              Con habilidades destacadas en el stack PERN y valiosa experiencia
+              en diseño UX / UI. Actualmente en búsqueda activa de oportunidades
+              como desarrollador web. Apasionado por React y JavaScript, me
+              dedico a la creación de experiencias web impactantes.
             </p>
           </Reveal>
         </div>
