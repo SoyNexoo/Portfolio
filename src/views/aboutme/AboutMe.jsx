@@ -16,6 +16,8 @@ import {
   React,
   TablerBrandFramerMotion,
   TeenyiconsJavascriptOutline,
+  TeenyiconsMongodbOutline,
+  TeenyiconsNextjsSolid,
   WhhPgsql,
 } from "../../utils/Icons";
 import Reveal from "../../components/reveal/Reveal";
@@ -32,6 +34,7 @@ const AboutMe = () => {
     <FaBrandsSass key={"Sass"} width={40}></FaBrandsSass>,
     <MdiTailwind width={40} key={"Tailwind"}></MdiTailwind>,
     <CibTypescript width={40} key={"Typescript"}></CibTypescript>,
+    <TeenyiconsNextjsSolid width={40} key={"NextJS"}></TeenyiconsNextjsSolid>,
   ];
 
   const backend = [
@@ -40,6 +43,9 @@ const AboutMe = () => {
       width={40}></TeenyiconsJavascriptOutline>,
     <Express key={"express"} width={40}></Express>,
     <AkarIconsNodeFill key={"node"} width={40}></AkarIconsNodeFill>,
+    <TeenyiconsMongodbOutline
+      width={40}
+      key={"mongo"}></TeenyiconsMongodbOutline>,
   ];
 
   const tools = [

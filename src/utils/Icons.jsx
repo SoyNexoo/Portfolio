@@ -7,8 +7,7 @@ export const House = ({ width }) => {
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       fill="currentColor"
-      viewBox="0 0 16 16"
-    >
+      viewBox="0 0 16 16">
       <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
       <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
     </svg>
@@ -22,8 +21,7 @@ export const Person = ({ width }) => {
       width={width}
       fill="currentColor"
       className="bi bi-person-fill"
-      viewBox="0 0 16 16"
-    >
+      viewBox="0 0 16 16">
       <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
     </svg>
   );
@@ -36,8 +34,7 @@ export const Folder = ({ width }) => {
       width={width}
       fill="currentColor"
       className="bi bi-folder-fill"
-      viewBox="0 0 16 16"
-    >
+      viewBox="0 0 16 16">
       <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
     </svg>
   );
@@ -50,8 +47,7 @@ export const SocialMedia = ({ width }) => {
       width={width}
       fill="currentColor"
       className="bi bi-share-fill"
-      viewBox="0 0 16 16"
-    >
+      viewBox="0 0 16 16">
       <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
     </svg>
   );
@@ -136,8 +132,7 @@ export function WhhPgsql({ width }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={width}
-      viewBox="0 0 1025 1024"
-    >
+      viewBox="0 0 1025 1024">
       <path
         fill="currentColor"
         d="M864.95 544q13-27 22.5-113.5t9.5-142.5q0-73-49.5-147.5T736.95 32q12-4 33-13.5t35-14t28-4.5q25 0 57 12.5t62.5 35t51.5 61t21 83.5q0 51-19 125t-58 143t-83 84zm-64-288q9 0 24 9q8 30 8 55q0 78-15 171q-16-32-32.5-91t-16.5-80q0-26 9.5-45t22.5-19zm-96 96q0 37 29 96.5t70 111.5q-13 54-32 105q90 69 193 69q-46 34-100 34q-41 0-96-30v158q0 48-40 88t-88 40q-37 0-50.5-17t-13.5-47V768q0-23-21-51q-33 26-79.5 38.5t-91.5 12.5q-9 0-17-1.5t-13.5-3.5t-11-6t-8-6t-8-8t-6.5-7q33 0 83.5-21.5t88.5-53.5q-23-14-44-21q26-77 45-151.5t19-104.5q0-92-27-142t-69-50q-45 0-83 20q20-107 71.5-159.5T544.95 0q67 0 137.5 56.5T794.95 193q-90 5-90 159zm-320-96q64 0 64 96q0 43-9 86t-28 105.5t-27 96.5q-64-119-64-256q0-50 3-93q29-35 61-35zm-73 368q-80 80-119 80q-26 0-59.5-44t-63-111t-49.5-156t-20-169q0-35 12.5-72.5t35-72t60.5-57t84-22.5q60 0 147 34q-40 40-61.5 121.5T256.95 352q0 182 55 272z"
@@ -200,8 +195,7 @@ export function TablerBrandFramerMotion({ width }) {
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
-      >
+        strokeWidth="2">
         <path d="M12 12L4 4v16L20 4v16l-4-4" />
         <path d="m20 12l-8 8l-4-4" />
       </g>
@@ -227,8 +221,7 @@ export const Love = ({ width }) => {
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
       width={width}
-      viewBox="0 0 684.76331 506.49355"
-    >
+      viewBox="0 0 684.76331 506.49355">
       <polygon
         points="140.266 494.709 150.838 494.708 155.867 453.933 140.264 453.934 140.266 494.709"
         fill="#9e616a"
@@ -451,6 +444,30 @@ export function MaterialSymbolsFlutter({ width }) {
       <path
         fill="currentColor"
         d="M5.9 15.375L2.5 12l11-11h6.775zM13.5 23l-5.925-5.925L13.5 11.15h6.775l-5.925 5.925L20.275 23z"
+      />
+    </svg>
+  );
+}
+
+export function TeenyiconsNextjsSolid({ width }) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={width} viewBox="0 0 15 15">
+      <path
+        fill="currentColor"
+        fillRule="evenodd"
+        d="M0 7.5a7.5 7.5 0 1 1 11.698 6.216L4.906 4.21A.5.5 0 0 0 4 4.5V12h1V6.06l5.83 8.162A7.5 7.5 0 0 1 0 7.5M10 10V4h1v6z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
+
+export function TeenyiconsMongodbOutline({ width }) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={width} viewBox="0 0 15 15">
+      <path
+        fill="currentColor"
+        d="m7.5.5l.369-.338a.5.5 0 0 0-.738 0zm0 13l-.393.309a.5.5 0 0 0 .786 0zM4.623 9.838l-.393.31zm.246-6.467L4.5 3.032zm5.262 0l.369-.338zm.246 6.467l.393.31zM8 15V.5H7V15zm-.107-1.809L5.016 9.53l-.786.618l2.877 3.662zM5.237 3.708L7.87.838L7.13.162L4.5 3.032zM7.131.838l2.632 2.87l.737-.675L7.869.163zm2.853 8.691l-2.877 3.662l.786.618l2.877-3.662zm-.221-5.82a4.5 4.5 0 0 1 .22 5.82l.787.618a5.5 5.5 0 0 0-.27-7.114zm-4.747 5.82a4.5 4.5 0 0 1 .221-5.82L4.5 3.032a5.5 5.5 0 0 0-.27 7.114z"
       />
     </svg>
   );
