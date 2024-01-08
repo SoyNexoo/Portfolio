@@ -17,8 +17,7 @@ const Nav = () => {
       className={s.container}
       initial={{ top: "25%", opacity: 0 }}
       animate={{ opacity: 1, top: "50%" }}
-      transition={{ type: "spring", stiffness: 120, damping: 10 }}
-    >
+      transition={{ type: "spring", stiffness: 120, damping: 10 }}>
       <nav className={s.nav}>
         <ul>
           <li onClick={() => scrollToElement("#home")}>
@@ -30,7 +29,7 @@ const Nav = () => {
           <li onClick={() => scrollToElement("#aboutMe")}>
             <Person width={30}></Person>
           </li>
-          <li>
+          <li onClick={() => scrollToElement("#socialMedia")}>
             <SocialMedia width={30}></SocialMedia>
           </li>
         </ul>

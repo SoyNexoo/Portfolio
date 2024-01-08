@@ -1,10 +1,9 @@
 import Reveal from "../../components/reveal/Reveal";
-import ViewCount from "../../components/viewCount/ViewCount";
 import { Love, MdiGithub, MdiGmail, MdiLinkedin } from "../../utils/Icons";
 import style from "./Contact.module.css";
 const Contact = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="socialMedia">
       <div className={style.contact}>
         <div className={style.thanks}>
           <Reveal>
@@ -25,8 +24,7 @@ const Contact = () => {
               <a
                 href="https://github.com/SoyNexoo"
                 id={style.github}
-                target="__blank"
-              >
+                target="__blank">
                 <MdiGithub width={30}></MdiGithub>
               </a>
             </Reveal>
@@ -34,8 +32,7 @@ const Contact = () => {
               <a
                 id={style.linkedin}
                 href="https://www.linkedin.com/in/julian-luque-2ba0281a6/"
-                target="__blank"
-              >
+                target="__blank">
                 <MdiLinkedin width={30}></MdiLinkedin>
               </a>
             </Reveal>
@@ -43,8 +40,7 @@ const Contact = () => {
               <a
                 id={style.mail}
                 href="mailto:julianlu29.03@gmail.com"
-                target="__blank"
-              >
+                target="__blank">
                 <MdiGmail width={30}></MdiGmail>
               </a>
             </Reveal>
